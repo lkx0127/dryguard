@@ -1,3 +1,8 @@
+# Readable page and password stay on this PC
 _source/
-dryguard_full_3d*.html
+
+# Only the encrypted index.html may be uploaded from the root folder
+/*.html
+!/index.html
+
 .staticrypt.json
